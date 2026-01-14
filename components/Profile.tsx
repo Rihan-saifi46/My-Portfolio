@@ -64,12 +64,6 @@ export default function About() {
           {/* Buttons */}
           <div className="flex gap-4 pt-6">
             <a
-              href="/contact"
-              className="px-6 py-3 bg-red-500 rounded-full font-semibold hover:bg-red-600 transition"
-            >
-              Let’s Connect
-            </a>
-            <a
               href="/vinay_resume.pdf"
               className="px-6 py-3 border border-gray-600 rounded-full font-semibold hover:bg-gray-800 transition"
             >

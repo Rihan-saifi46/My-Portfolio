@@ -2,6 +2,7 @@
 
 import React from "react";
 import { WobbleCard } from "@/components/ui/wobble-card";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function WobbleCardDemo() {
   return (
@@ -10,31 +11,53 @@ export default function WobbleCardDemo() {
         containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
         className=""
       >
-        <div className="max-w-xs">
+        <div className="max-w-2xl w-full">
           <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Gippity AI powers the entire universe
+            I am Vinay Pandey
           </h2>
-          <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+          <p className="mt-4 text-neutral-200">
+            Full Stack Developer (MERN) with strong hands-on experience in
+            building responsive web applications using React, Node.js,
+            Express.js, and MongoDB. Skilled in modern JavaScript (ES6+),
+            RESTful APIs, authentication, and state management. Developed
+            real-world projects including a job portal, AI chatbot, and movie
+            discovery platform. Passionate about writing clean, scalable code
+            and continuously learning new technologies.
           </p>
-        </div>  
-        <img
-          src="/linear.webp"
-          width={500}
-          height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
-        />
+        </div>
       </WobbleCard>
-      <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-        <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-          No shirt, no shoes, no weapons.
-        </h2>
-        <p className="mt-4 max-w-104 text-left  text-base/6 text-neutral-200">
-          If someone yells “stop!”, goes limp, or taps out, the fight is over.
-        </p>
-      </WobbleCard>
+<WobbleCard containerClassName="col-span-1 min-h-[300px]">
+  <h2 className="max-w-80 text-left text-balance text-base md:text-xl lg:text-xl font-semibold tracking-[-0.015em] text-white">
+    I’m always open to discussing new projects, collaboration
+    opportunities, or anything related to web development.
+  </h2>
+
+  <p className="mt-4 max-w-104 text-left text-base/6 text-neutral-200">
+    Feel free to reach out—I’d love to connect!
+  </p>
+
+  {/* Make links clickable */}
+  <div className="flex items-center gap-4 mt-5 pointer-events-auto">
+    <a
+      href="https://github.com/Vinay-pandey-coder"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white hover:text-neutral-300 text-2xl"
+    >
+      <FaGithub />
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/vinay-pandey-915310338/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white hover:text-neutral-300 text-2xl"
+    >
+      <FaLinkedin />
+    </a>
+  </div>
+</WobbleCard>
+
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[100px]">
         <div className="max-w-sm">
           <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-5xl font-semibold tracking-[-0.015em] text-white">

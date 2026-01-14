@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-6 left-0 w-full flex justify-center z-50">
+    <nav className="fixed top-6 left-0 w-full flex justify-center z-[200]">
       <div className="backdrop-blur-md bg-white/10 px-8 py-3 rounded-full border border-white/20 flex items-center justify-between w-[90%] md:w-auto">
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-8">
