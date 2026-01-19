@@ -24,13 +24,12 @@ export default function TimelineDemo() {
       content: (
         <div>
           <p className="mb-4 text-sm font-normal">
-            6-month internship with real-world project experience in:
+            FullStack Developer Intern
           </p>
           <ul className="list-disc pl-5 space-y-2 text-sm">
-            <li>Frontend Development (React, Next.js)</li>
-            <li>UI Implementation using Tailwind CSS</li>
-            <li>Working closely with development teams</li>
-            <li>Building responsive & production-ready components</li>
+            <li>FDeveloped full-stack web applications using React.js, Next.js, Node.js, Express.js, and MongoDB for client projects</li>
+            <li>Built RESTful APIs with Express.js, implementing CRUD operations, JWT authentication, and data validation</li>
+            <li>Designed responsive React components using Tailwind CSS, ensuring pixel-perfect UI/UX across devices</li>
           </ul>
         </div>
       ),
