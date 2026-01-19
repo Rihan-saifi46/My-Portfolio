@@ -51,24 +51,6 @@ export default function AnimatedPinDemo() {
           </div>
         </div>
       </PinContainer>
-
-      <PinContainer title="LMS" href="https://job-port1.netlify.app">
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 w-[20rem] h-60">
-          <h3 className="font-bold text-base text-slate-100">LMS</h3>
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-linear-to-br">
-            <img src="/jobPortal.png" alt="" />
-          </div>
-        </div>
-      </PinContainer>
-
-      <PinContainer title="Job Portal" href="https://job-port1.netlify.app">
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 w-[20rem] h-60">
-          <h3 className="font-bold text-base text-slate-100">Job Portal</h3>
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-linear-to-br">
-            <img src="/jobPortal.png" alt="" />
-          </div>
-        </div>
-      </PinContainer>
     </div>
   );
 }
