@@ -13,7 +13,7 @@ export default function WobbleCardDemo() {
       >
         <div className="max-w-2xl w-full">
           <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            I am Vinay Pandey
+            I am Rihan
           </h2>
           <p className="mt-4 text-neutral-200">
             Full Stack Developer (MERN) with strong hands-on experience in
@@ -39,7 +39,7 @@ export default function WobbleCardDemo() {
   {/* Make links clickable */}
   <div className="flex items-center gap-4 mt-5 pointer-events-auto">
     <a
-      href="https://github.com/Vinay-pandey-coder"
+      href="https://github.com/Rihan-saifi46"
       target="_blank"
       rel="noopener noreferrer"
       className="text-white hover:text-neutral-300 text-2xl"
@@ -48,7 +48,7 @@ export default function WobbleCardDemo() {
     </a>
 
     <a
-      href="https://www.linkedin.com/in/vinay-pandey-915310338/"
+      href="https://www.linkedin.com/in/rihan-saifi-054a26347/"
       target="_blank"
       rel="noopener noreferrer"
       className="text-white hover:text-neutral-300 text-2xl"
@@ -64,11 +64,11 @@ export default function WobbleCardDemo() {
             DICE ACADEMY
           </h2>
           <p className="mt-4 max-w-104 text-left lg:text-2xl font-bold text-neutral-200">
-            Hackathon Participation
+           🏆 Hackathon – Secured 2nd Position
           </p>
         </div>
         <img
-          src="/certificate.jpeg"
+          src="/certificate1.jpeg"
           width={300}
           height={300}
           alt="linear demo image"

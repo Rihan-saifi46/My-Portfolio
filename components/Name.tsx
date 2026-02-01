@@ -5,7 +5,7 @@ export default function EncryptedTextDemoSecond() {
   return (
     <p className="mx-auto max-w-lg py-10 text-left">
       <EncryptedText
-        text="Hello, I'm Vinay Pandey"
+        text="Hello, I'm Rihan"
         encryptedClassName="text-neutral-500"
         revealedClassName="dark:text-white text-white"
         revealDelayMs={50}

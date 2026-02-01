@@ -8,7 +8,7 @@ export default function About() {
         {/* Left Image */}
         <div className="relative w-full h-125 rounded-2xl overflow-hidden shadow-xl shadow-red-900/40">
           <Image
-            src="/profile.png"
+            src="/pr.png"
             alt="Vinay Pandey"
             fill
             className="object-cover"
@@ -47,7 +47,9 @@ export default function About() {
           {/* Skill Bullets */}
           <div className="grid grid-cols-2 gap-3 text-gray-300 text-sm pt-2">
             {[
-              "React / Next.js",
+              "HTML / CSS",
+              "Javascript / GSAP",
+              "React.js / Next.js",
               "Tailwind CSS",
               "Node.js / Express",
               "MongoDB & REST APIs",
@@ -64,7 +66,7 @@ export default function About() {
           {/* Buttons */}
           <div className="flex gap-4 pt-6">
             <a
-              href="/vinay_resume.pdf"
+              href="/Final resume.pdf"
               className="px-6 py-3 border border-gray-600 rounded-full font-semibold hover:bg-gray-800 transition"
             >
               View Resume
